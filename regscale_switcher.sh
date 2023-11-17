@@ -1,4 +1,4 @@
-#! /usr/bin/env fish
+#! /usr/bin/env bash
 
 cd /opt/domain_switcher || exit
 export REGSCALE_DOMAIN=$( rofi -normal-window -steal-focus -dmenu -p "Select RegScale Domain environment" < domains)
